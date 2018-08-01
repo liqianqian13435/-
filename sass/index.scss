@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+ul,ol{
+    list-style:none;
+}
+a{
+    text-decoration:none;    
+}
+
+// 把px转化成rem
+@function rem($px){
+    @return $px/75px*1rem;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:rem(16px);
+    font-weight:normal;
+}
+i{
+    font-style:normal;
+}
+// 头部样式
+.top{
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    align-items: center;
+    width:100%;
+    height:rem(82px);
+    background:#c44943;
+    .logo{
+        display:flex;
+        justify-content:center;
+        color:#fff;
+        width:rem(100px);
+
+        span{
+            font-size:rem(40px);
+            text-align:center;
+            display:block;            
+        }
+        p{
+            font-size:rem(18px);
+            text-align:center;
+			font-family: '微软雅黑';            
+        }
+    }
+    .find{
+        display:flex;
+        align-items: center;
+        border-radius:rem(6px);
+        width:rem(547px);
+        height:rem(58px);
+        background:#f6f5f5;
+        padding-left:rem(20px); 
+        span{
+            font-size:rem(40px);
+            color:#999999;
+        }
+        p{
+            font-size:rem(36px);
+            padding-left:rem(10px);
+        }
+    }
+    .fabu{
+        color:#fff;
+        width:rem(100px);
+        display:flex;        
+        justify-content:center;
+        span{
+            font-size:rem(40px);
+            text-align:center;
+            display:block;            
+            
+        }
+        p{
+            font-size:rem(18px);
+			font-family: '微软雅黑';            
+            text-align:center;
+            
+        }
+    }
+}
+
+// 导航
+.nav{
+    width:100%;
+    height:rem(72px);
+    border-bottom:1px double #e8e8e8;
+    position:fixed;    
+    top:rem(82px);
+    background:#fff;
+    left:0;
+    nav{
+        width:100%;
+        height:rem(72px);
+        .swiper-slide{
+            line-height:rem(72px);
+            font-size:rem(32px);
+            text-align:center;
+        }
+        
+    }
+    .icon{
+        width:rem(84px);
+        height:rem(72px);
+        position:absolute;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        top:0;
+        right:0;
+        background:#fff;
+        z-index:100;
+        opacity:0.9;
+        span{
+             font-size:rem(50px);             
+        }
+    }
+}
+// 内容样式
+.content{
+    width:100%;
+    padding-top:rem(154px);
+    ul{
+        margin:0 rem(30px);
+        .lists{
+            border-bottom:1px solid #e8e8e8;
+            padding:rem(30px) 0;
+            a{
+                color:#000;
+                font-family: '微软雅黑';            
+                h3{
+                    font-size:rem(39px); 
+                }
+                p{
+                    margin-top:rem(10px);
+                    span{
+                        font-size:rem(20px);
+                        color:#e7645f;
+                        border:rem(1px) solid #e7645f;
+                        width:rem(53px);
+                        height:rem(29px);
+                        border-radius:rem(5px);
+                        padding:rem(5px);
+                    }
+                    i{
+                        color:#99999a;
+                        font-size:rem(22px);
+                        padding:0 rem(10px);
+            
+                    }
+                }
+            }
+        }
+        .listsTow{
+            a{
+                display:flex;
+                justify-content:center;
+                .contentText{    
+                    .xbtn{
+                        border:1px solid #c3c3c3;
+                        border-radius:rem(10px);
+                    }
+                }
+                .contentImg{
+                    img{
+                        width:rem(225px);
+                        height:rem(148px);
+                    }
+                }
+            }
+        }
+        .listsThree{
+            img{
+                width:rem(224px);
+                height:rem(148px);
+                margin-top:rem(10px);
+            }
+        } 
+
+    }
+
+}
+.footer{
+    width:100%;
+    height:rem(90px);
+    position:fixed;
+    bottom:0;
+    left:0;
+    background:#fff;
+    border-top:1px solid #a3a3a3;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+    div{
+        width:25%;
+        text-align:center;
+        span{
+            font-size:rem(40px);
+        }
+        p{
+            font-size:rem(18px);
+        }
+    }
+}

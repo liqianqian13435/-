@@ -1,0 +1,159 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 0.2133333333rem;
+  font-weight: normal; }
+
+i {
+  font-style: normal; }
+
+.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 1.0933333333rem;
+  background: #c44943; }
+  .top .logo {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    width: 1.3333333333rem; }
+    .top .logo span {
+      font-size: 0.5333333333rem;
+      text-align: center;
+      display: block; }
+    .top .logo p {
+      font-size: 0.24rem;
+      text-align: center;
+      font-family: '微软雅黑'; }
+  .top .find {
+    display: flex;
+    align-items: center;
+    border-radius: 0.08rem;
+    width: 7.2933333333rem;
+    height: 0.7733333333rem;
+    background: #f6f5f5;
+    padding-left: 0.2666666667rem; }
+    .top .find span {
+      font-size: 0.5333333333rem;
+      color: #999999; }
+    .top .find p {
+      font-size: 0.48rem;
+      padding-left: 0.1333333333rem; }
+  .top .fabu {
+    color: #fff;
+    width: 1.3333333333rem;
+    display: flex;
+    justify-content: center; }
+    .top .fabu span {
+      font-size: 0.5333333333rem;
+      text-align: center;
+      display: block; }
+    .top .fabu p {
+      font-size: 0.24rem;
+      font-family: '微软雅黑';
+      text-align: center; }
+
+.nav {
+  width: 100%;
+  height: 0.96rem;
+  border-bottom: 1px double #e8e8e8;
+  position: fixed;
+  top: 1.0933333333rem;
+  background: #fff;
+  left: 0; }
+  .nav nav {
+    width: 100%;
+    height: 0.96rem; }
+    .nav nav .swiper-slide {
+      line-height: 0.96rem;
+      font-size: 0.4266666667rem;
+      text-align: center; }
+  .nav .icon {
+    width: 1.12rem;
+    height: 0.96rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    background: #fff;
+    z-index: 100;
+    opacity: 0.9; }
+    .nav .icon span {
+      font-size: 0.6666666667rem; }
+
+.content {
+  width: 100%;
+  padding-top: 2.0533333333rem; }
+  .content ul {
+    margin: 0 0.4rem; }
+    .content ul .lists {
+      border-bottom: 1px solid #e8e8e8;
+      padding: 0.4rem 0; }
+      .content ul .lists a {
+        color: #000;
+        font-family: '微软雅黑'; }
+        .content ul .lists a h3 {
+          font-size: 0.52rem; }
+        .content ul .lists a p {
+          margin-top: 0.1333333333rem; }
+          .content ul .lists a p span {
+            font-size: 0.2666666667rem;
+            color: #e7645f;
+            border: 0.0133333333rem solid #e7645f;
+            width: 0.7066666667rem;
+            height: 0.3866666667rem;
+            border-radius: 0.0666666667rem;
+            padding: 0.0666666667rem; }
+          .content ul .lists a p i {
+            color: #99999a;
+            font-size: 0.2933333333rem;
+            padding: 0 0.1333333333rem; }
+    .content ul .listsTow a {
+      display: flex;
+      justify-content: center; }
+      .content ul .listsTow a .contentText .xbtn {
+        border: 1px solid #c3c3c3;
+        border-radius: 0.1333333333rem; }
+      .content ul .listsTow a .contentImg img {
+        width: 3rem;
+        height: 1.9733333333rem; }
+    .content ul .listsThree img {
+      width: 2.9866666667rem;
+      height: 1.9733333333rem;
+      margin-top: 0.1333333333rem; }
+
+.footer {
+  width: 100%;
+  height: 1.2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  border-top: 1px solid #a3a3a3;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer div {
+    width: 25%;
+    text-align: center; }
+    .footer div span {
+      font-size: 0.5333333333rem; }
+    .footer div p {
+      font-size: 0.24rem; }
+
+/*# sourceMappingURL=index.css.map */

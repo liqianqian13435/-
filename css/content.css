@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 0.2133333333rem;
+  font-weight: normal; }
+
+i {
+  font-style: normal; }
+
+.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 1.0933333333rem;
+  border-bottom: 1px solid #e8e8e8; }
+  .top .zuojiantou {
+    width: 0.9333333333rem;
+    display: flex;
+    justify-content: center; }
+    .top .zuojiantou span {
+      font-size: 0.52rem; }
+  .top .topImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7.7066666667rem;
+    height: 1.0933333333rem; }
+    .top .topImg img {
+      display: block;
+      width: 2.2133333333rem;
+      height: 0.52rem; }
+  .top .more {
+    width: 1.3333333333rem;
+    display: flex;
+    justify-content: center; }
+    .top .more span {
+      font-size: 0.52rem; }
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1.0933333333rem; }
+  .content .contentBiaoti {
+    padding: 0.5466666667rem 0;
+    overflow: hidden;
+    border-bottom: 1px solid #e8e8e8; }
+    .content .contentBiaoti h3 {
+      font-size: 0.4666666667rem;
+      font-weight: bold; }
+    .content .contentBiaoti div {
+      float: left;
+      margin-right: 0.8266666667rem; }
+      .content .contentBiaoti div i, .content .contentBiaoti div span {
+        font-size: 0.3466666667rem;
+        border-bottom: 1px solid #000; }
+  .content .contentGuanzhu {
+    width: 100%;
+    height: 1.8933333333rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .content .contentGuanzhu div {
+      display: flex;
+      align-items: center; }
+      .content .contentGuanzhu div img {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%; }
+    .content .contentGuanzhu .btn {
+      display: block;
+      width: 1.5733333333rem;
+      height: 0.72rem;
+      text-align: center;
+      line-height: 0.72rem;
+      font-size: 0.3866666667rem;
+      background: #e6645f;
+      color: #fff;
+      border-radius: 0.1333333333rem; }
+  .content .contentText {
+    width: 100%; }
+    .content .contentText h3 {
+      font-size: 0.4666666667rem;
+      line-height: 0.8rem; }
+    .content .contentText div {
+      display: flex;
+      margin: 10px auto; }
+      .content .contentText div img {
+        width: 4.5333333333rem;
+        height: 4.5333333333rem; }
+    .content .contentText p {
+      font-size: 0.3866666667rem;
+      line-height: 1rem; }
+
+.footer {
+  width: 100%;
+  height: 1.2266666667rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  border-top: 1px solid #a3a3a3;
+  display: flex;
+  align-items: center; }
+  .footer .footerInput {
+    width: 5.8666666667rem;
+    height: 0.8666666667rem; }
+    .footer .footerInput .divInput {
+      margin: 0 auto;
+      width: 5.1466666667rem;
+      height: 0.8666666667rem;
+      border-radius: 0.4rem;
+      background: #f5f5f6; }
+      .footer .footerInput .divInput span {
+        border-bottom: 1px solid #000;
+        font-size: 0.56rem; }
+      .footer .footerInput .divInput .spanText {
+        font-size: 0.36rem; }
+      .footer .footerInput .divInput i {
+        font-size: 0.56rem; }
+  .footer div {
+    width: 1.3733333333rem;
+    text-align: center; }
+    .footer div span {
+      font-size: 0.56rem; }
+    .footer div p {
+      font-size: 0.24rem; }
+
+/*# sourceMappingURL=content.css.map */

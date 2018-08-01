@@ -1,0 +1,173 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 0.2133333333rem;
+  font-weight: normal; }
+
+i {
+  font-style: normal; }
+
+.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 1.0933333333rem;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8; }
+  .top .logo {
+    display: flex;
+    justify-content: center;
+    width: 1.3333333333rem; }
+    .top .logo span {
+      font-size: 0.5333333333rem;
+      text-align: center;
+      display: block; }
+    .top .logo p {
+      font-size: 0.24rem;
+      text-align: center;
+      font-family: '微软雅黑'; }
+  .top .find {
+    width: 7.2933333333rem;
+    height: 0.7733333333rem; }
+    .top .find h2 {
+      text-align: center;
+      font-size: 0.4533333333rem;
+      line-height: 0.7733333333rem; }
+  .top .fabu {
+    width: 1.3333333333rem;
+    display: flex;
+    justify-content: center; }
+    .top .fabu span {
+      font-size: 0.5333333333rem;
+      text-align: center;
+      display: block; }
+    .top .fabu p {
+      font-size: 0.24rem;
+      font-family: '微软雅黑';
+      text-align: center; }
+
+.rebang {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 12px solid #f5f5f6;
+  padding-top: 1.0933333333rem; }
+  .rebang h3 {
+    font-size: 0.4133333333rem;
+    font-weight: bold;
+    margin: 0.4666666667rem 0; }
+    .rebang h3 span {
+      color: #e6645f;
+      margin-right: 0.16rem; }
+  .rebang ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+    .rebang ul li {
+      width: 50%;
+      display: flex;
+      justify-content: left;
+      margin-bottom: 0.4rem; }
+      .rebang ul li img {
+        display: block;
+        width: 0.96rem;
+        height: 0.96rem; }
+      .rebang ul li div h4 {
+        font-size: 0.4rem;
+        font-weight: bold; }
+      .rebang ul li div p {
+        display: inline-block;
+        height: 0.44rem;
+        border-radius: 0.4rem;
+        background: #fcefef;
+        color: #e87571;
+        font-size: 0.28rem; }
+      .rebang ul li div i {
+        display: inline-block;
+        height: 0.44rem;
+        border-radius: 0.4rem;
+        background: #f5f5f6;
+        color: #959595;
+        font-size: 0.28rem; }
+
+.article {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.3333333333rem 0; }
+  .article .photo {
+    display: flex;
+    width: 100%; }
+    .article .photo .author {
+      width: 7.2266666667rem; }
+      .article .photo .author img {
+        width: 1.0266666667rem;
+        height: 1.0266666667rem;
+        float: left;
+        margin-right: 0.1333333333rem; }
+      .article .photo .author h3 {
+        font-size: 0.3733333333rem;
+        font-weight: bold; }
+      .article .photo .author p {
+        color: #a2a2a2;
+        font-size: 0.28rem; }
+    .article .photo .guanzhu {
+      width: 1.9866666667rem;
+      display: flex; }
+      .article .photo .guanzhu p {
+        color: #e6645f; }
+      .article .photo .guanzhu span {
+        display: block;
+        border: 1px solid #c3c3c3;
+        color: #c3c3c3;
+        width: 0.4533333333rem;
+        height: 0.3466666667rem;
+        text-align: center;
+        line-height: 0.3466666667rem;
+        border-radius: 0.1333333333rem;
+        font-size: 0.16rem; }
+  .article h2 {
+    font-size: 0.4533333333rem;
+    font-weight: bold;
+    margin: 0.2933333333rem 0; }
+  .article .video {
+    border: 1px solid #d4d4d4;
+    width: 100%; }
+    .article .video h3 {
+      color: #677fa7;
+      font-size: 0.4666666667rem;
+      line-height: 1rem;
+      margin-left: 0.1333333333rem; }
+    .article .video video {
+      width: 100%; }
+
+.footer {
+  width: 100%;
+  height: 1.2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  border-top: 1px solid #a3a3a3;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer div {
+    width: 25%;
+    text-align: center; }
+    .footer div span {
+      font-size: 0.5333333333rem; }
+    .footer div p {
+      font-size: 0.24rem; }
+
+/*# sourceMappingURL=list.css.map */
